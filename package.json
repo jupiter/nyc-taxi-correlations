@@ -1,0 +1,14 @@
+{
+  "name": "nyc-taxi-correlations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "node-duckdb": "^0.0.59"
+  }
+}
