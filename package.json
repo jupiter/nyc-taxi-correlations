@@ -1,8 +1,11 @@
 {
   "name": "nyc-taxi-correlations",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/run.ts",
   "license": "MIT",
+  "scripts": {
+    "watch": "nodemon -e ts --exec ts-node src/run"
+  },
   "devDependencies": {
     "nodemon": "^2.0.6",
     "ts-node": "^9.1.1",
