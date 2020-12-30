@@ -4,7 +4,8 @@
   "main": "src/run.ts",
   "license": "MIT",
   "scripts": {
-    "watch": "nodemon -e ts --exec ts-node src/run"
+    "watch": "nodemon -e ts --exec ts-node src/run",
+    "copy-datasets": "mkdir -p data; for i in {1..6}; do curl https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2019-0$i.csv > data/yellow_tripdata_2019-0$i.csv; done"
   },
   "devDependencies": {
     "nodemon": "^2.0.6",
